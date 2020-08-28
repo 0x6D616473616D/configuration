@@ -1,7 +1,8 @@
 automake
 binutils
+clang
 cmake
-dxvk-bin
+dxvk
 gcc
 gdb
 git
