@@ -24,3 +24,5 @@ set encoding=utf-8
 set ruler
 set number
 highlight Comment ctermfg=green
+
+
