@@ -6,8 +6,11 @@ dxvk
 gcc
 gdb
 git
+kvm
 node
+openvpn
 postgresql
+qemu
 tmux
 traceroute
 unrar
