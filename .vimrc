@@ -1,3 +1,17 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+
+call vundle#begin()
+  Plugin 'VundleVim/Vundle.vim'
+  Plugin 'itchyny/lightline.vim'
+  Plugin 'preservim/nerdtree'
+call vundle#end()
+
+filetype plugin indent on
+
 syntax enable
 
 let g:lightline = {
@@ -5,16 +19,6 @@ let g:lightline = {
       \ }
 
 map <C-o> :NERDTreeToggle<CR>
-
-if exists('+termguicolors')
-  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-  set termguicolors
-endif
-
-if !has('gui_running')
-  set t_Co=256
-endif
 
 set laststatus=2
 set background=dark
