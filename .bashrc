@@ -124,6 +124,3 @@ LS_COLORS=$LS_COLORS:'di=1;94:'; export LS_COLORS
 
 # Export JDK
 export PATH=/home/chad/.jdks/corretto-16.0.1/bin:$PATH
-
-# Alias for running ghidra from term
-alias ghidra='sh /home/chad/Apps/Ghidra/ghidraRun'

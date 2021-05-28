@@ -67,10 +67,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -108,11 +108,11 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Firefox "
 set $ws2 "2: Terminal "
-set $ws3 "3: Document "
-set $ws4 "4: Spotify "
-set $ws5 "5"
-set $ws6 "6: Hex-Rays IDA "
-set $ws7 "7: Ghidra "
+set $ws3 "3: Window"
+set $ws4 "4: Window"
+set $ws5 "5: Window"
+set $ws6 "6: Virtual Box"
+set $ws7 "7: Ghidra"
 set $ws8 "8: Scene Builder "
 set $ws9 "9: IntelliJ IDEA "
 set $ws10 "10: Visual Studio Code "
@@ -141,13 +141,6 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-# Open apps on certain workspaces
-assign [class="Firefox"] $ws1
-assign [class="ida-64"] $ws7
-assign [class="Ghidra"] $ws8
-assign [class="jetbrains-idea-ce"] $ws9
-assign [class="Code"] $ws10
-
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -163,10 +156,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym h resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym l resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
