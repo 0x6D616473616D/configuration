@@ -1,3 +1,7 @@
+cmake
+go
+hex-fiend
 htop
 openjdk
+postgresql
 tmux
