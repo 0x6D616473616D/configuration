@@ -4,4 +4,5 @@ hex-fiend
 htop
 openjdk
 postgresql
+qemu
 tmux
