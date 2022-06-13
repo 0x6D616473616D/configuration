@@ -2,7 +2,12 @@ cmake
 go
 hex-fiend
 htop
+jenv
+meson
+ninja
 openjdk
-postgresql
+openvpn
+pyenv
 qemu
+sdl2
 tmux
