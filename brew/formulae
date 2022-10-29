@@ -1,13 +1,14 @@
 cmake
 go
-hex-fiend
 htop
 jenv
 meson
 ninja
-openjdk
+openjdk@17
 openvpn
 pyenv
 qemu
+raylib
 sdl2
 tmux
+vim
