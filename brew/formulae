@@ -1,5 +1,7 @@
 cmake
+ghc
 go
+haskell-stack
 htop
 jenv
 meson
