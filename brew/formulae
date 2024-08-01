@@ -5,8 +5,8 @@ meson
 ninja
 openjdk@17
 pyenv
-qemu
 python@3.12
+qemu
 swiftformat
 swiftlint
 tmux
