@@ -1,2 +1,2 @@
 # Configuration
-Personal bash, tmux and vim configuration.
+Personal zsh, tmux and vim configuration.
