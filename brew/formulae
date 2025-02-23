@@ -1,13 +1,13 @@
 cmake
+git
 htop
-jenv
 meson
 ninja
-openjdk@17
 pyenv
-python@3.12
-qemu
+pyenv-virtualenv
+python@3.13
 swiftformat
+swiftgen
 swiftlint
 tmux
 vim
